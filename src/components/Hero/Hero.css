@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .Hero {
+    background-image: url("./../../assets/clinic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* يضمن أن العنصر سيأخذ 100% من ارتفاع نافذة المتصفح */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Hero2{
+    background-image: url("./../../assets/story.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* يضمن أن العنصر سيأخذ 100% من ارتفاع نافذة المتصفح */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1{
+    font-weight: 600;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .Hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Hero-content p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .Hero-content button {
+    padding: 15px 15px 10px 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .Hero-content button:hover {
+    background-color: black;
+    color: white;
+  }
+  

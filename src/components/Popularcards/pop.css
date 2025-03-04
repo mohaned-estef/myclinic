@@ -1,0 +1,126 @@
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.SingleCard{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+
+}
+
+.SingleCardReverse{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 60px;
+
+}
+
+.SingleCard .side{
+
+    display: flex;
+    flex-direction:row;
+
+}
+
+.SingleCardReverse .side{
+    width: 100%;
+    display: flex;
+    flex-direction:row-reverse;
+
+}
+
+.side-1{
+
+    width:45%;
+    display: flex;
+    flex-direction: column;
+   
+    margin-right: 20px;
+ 
+}
+
+.side-2{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+@media (max-width : 770px){
+    .SingleCardReverse .side{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        direction: rtl;      
+        margin-bottom:3rem;
+    }
+
+    .SingleCard .side{
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        direction: rtl;  
+        margin-bottom: 3rem;
+        
+    }
+    .side-1{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+     
+    }
+    .side-2{
+        width: 90%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        direction: ltr;  
+    
+    }
+}
+
+.side-2 img{
+    height:120px;
+}
+
+.side .side-2 img:nth-child(1){
+
+    width: 49%;
+    position: absolute;
+    border-radius: 6px;
+    z-index: -99;
+
+}
+
+.side .side-2 img:nth-child(2){
+
+    width: 49%;
+    position: absolute;
+    right: 0;
+    border-radius: 6px;
+    z-index:-99;
+    
+}
+

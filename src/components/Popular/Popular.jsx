@@ -5,7 +5,7 @@ import Photo2 from "./../../assets/company.jpeg"
 import Photo3 from "./../../assets/react.jpg"
 import Photo4 from "./../../assets/photo10.jpg"
 
-import PopularCards from "../PopularCards/PopularCards"
+import PopularCards from "./../../components/Popularcards/PopularCards"
 
 
 
